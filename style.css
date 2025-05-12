@@ -1,0 +1,250 @@
+
+@media(min-width: 1024px){
+
+    #wrapper{
+        padding: 2em;
+        margin: auto;
+        width: 80%;
+        background-color: #A3ECE8;
+    }
+
+    header{
+        background-image: url("Assets/background.png.png");
+        color: white;
+        height: 100px;
+        text-align: center;
+        font-size: large;
+    }
+    .card{
+        width: 25%;
+        min-width: 200px;
+        margin-bottom: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .link{
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .card-grid{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .dotted-line{
+        border: none;
+        border-top: 2px dotted black;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .card-grid a:link{text-decoration: none; display: block; color: #E0AEF3;}
+    .card-grid a:visited{text-decoration: none; display: block; color: #9F76AF;}
+    .card-grid a:hover{text-decoration: none; display: block; color: #9F76AF;}
+
+    .card-button{
+        background-color: rgb(68, 53, 71);
+        padding: 12px 20px;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        text-align: center;
+        
+    div button:link{text-decoration: none; display: block; color: white;}
+    div button:visited{text-decoration: none; display: block; color: grey;}
+    div button:hover{text-decoration: none; display: block; color: grey;}
+    }
+
+    /* For the Resume Page */
+
+    .resume-intro{
+        text-align: center;
+    }
+
+    .res-headings{
+        text-align: left;
+    }
+
+    .tab{
+        padding-left: 5em;
+    }
+    .small-text{
+        font-size: small;
+    }
+    .large-text{
+        font-size: 30px;
+        color: black;
+    }
+
+    .large-text a:link{text-decoration: none; display: block; color: black;}
+    .large-text a:visited{text-decoration: none; display: block; color: black;}
+    .large-text a:hover{text-decoration: none; display: block; color: grey;}
+
+    .large-text a{
+        color: black;
+    }
+
+    .tab-tab{
+        padding-left: 7em;
+    }
+
+    .res-body{
+        margin: 4%;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .middle{
+        text-align: center;
+    }
+
+    th{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: lightseagreen;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: white;
+    }
+}
+
+
+@media(max-width: 1024px) and (min-width: 600px){
+    #wrapper{
+        padding: 2em;
+        margin: auto;
+        width: 80%;
+        background-color: #A3ECE8;
+    }
+
+    header{
+        background-image: url("Assets/background.png.png");
+        color: white;
+        height: 100px;
+        text-align: center;
+        font-size: large;
+    }
+    .card{
+        width: 25%;
+        min-width: 200px;
+        margin-bottom: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .link{
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .card-grid{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .dotted-line{
+        border: none;
+        border-top: 2px dotted black;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .card-grid a:link{text-decoration: none; display: block; color: #E0AEF3;}
+    .card-grid a:visited{text-decoration: none; display: block; color: #9F76AF;}
+    .card-grid a:hover{text-decoration: none; display: block; color: #9F76AF;}
+
+    .card-button{
+        background-color: rgb(68, 53, 71);
+        padding: 12px 20px;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        text-align: center;
+        
+    div button:link{text-decoration: none; display: block; color: white;}
+    div button:visited{text-decoration: none; display: block; color: grey;}
+    div button:hover{text-decoration: none; display: block; color: grey;}
+    }
+
+    /* For the Resume Page */
+
+    .resume-intro{
+        text-align: center;
+    }
+
+    .res-headings{
+        text-align: left;
+    }
+
+    .tab{
+        padding-left: 5em;
+    }
+    .small-text{
+        font-size: small;
+    }
+    .large-text{
+        font-size: 30px;
+        color: black;
+    }
+
+    .large-text a:link{text-decoration: none; display: block; color: black;}
+    .large-text a:visited{text-decoration: none; display: block; color: black;}
+    .large-text a:hover{text-decoration: none; display: block; color: grey;}
+
+    .large-text a{
+        color: black;
+    }
+
+    .tab-tab{
+        padding-left: 7em;
+    }
+
+    .res-body{
+        margin: 4%;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .middle{
+        text-align: center;
+    }
+
+    th{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: lightseagreen;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: white;
+    }
+}
